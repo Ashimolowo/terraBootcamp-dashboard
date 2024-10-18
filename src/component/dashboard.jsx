@@ -3,7 +3,7 @@
 
 const DashBoard = () => {
   return (
-   <div className=" w-screen">
+   <div className=" w-full">
     <ul className="container" style={{fontFamily: "Roboto"}}>
         <li className="flex items-center-justify-evenly md:justify-normal bg-customPurple w-full py-10 overflow-auto">
             <div className="flex w-full">
