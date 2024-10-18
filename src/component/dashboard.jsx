@@ -3,12 +3,12 @@
 
 const DashBoard = () => {
   return (
-   <div className=" w-screen">
+   <div className=" w-full">
     <ul className="container" style={{fontFamily: "Roboto"}}>
-        <li className="flex items-center-justify-evenly md:justify-normal bg-customPurple w-screen py-10 ">
+        <li className="flex items-center-justify-evenly md:justify-normal bg-customPurple w-full py-10 overflow-auto">
             <div className="flex w-full">
                 <span className="flex-initial inline w-32 text-white text-5xl ml-10">Quiz</span>
-                <span className="flex-1 inline text-center ml-1 space-x-8 text-white sm:flex-col">
+                <span className="flex-1 inline text-center ml-2 space-x-8 text-white sm:flex-col">
                     <span>Leaderboard</span>
                     <span>Profile</span>
                     <span>Settings</span>
@@ -22,12 +22,12 @@ const DashBoard = () => {
         </li>
 
         <li className="w-90 mx-auto mt-14 flex flex-wrap flex-col gap-20">
-            <div className="container ml-6  flex flex-wrap items-center  w-90 h-40 bg-customPurple ">
+            <div className="container ml-2  flex flex-wrap items-center  w-90 h-40 bg-customPurple ">
                 <div className=" sm:ml-2 w-40 sm:w-15 sm:h-15 h-40 bg-cover bg-center" style={{ backgroundImage: "url('./freepik.png')" }}></div>
                 <div className="inline-block text-white  font-mono font-extrabold text-xl sm:text-40px"><p>Welcome, Ashimolowo Riliwan</p></div>
 
          </div>
-         <div className="mx-auto mb-10 grid grid-cols-4 gap-2 w-full ml-6 auto-cols-fr grid-flow-col sm:grid-cols-2">
+         <div className="mx-auto mb-10 grid grid-cols-4 gap-2 w-auto ml-2  auto-cols-fr grid-flow-col sm:grid-cols-2">
 
             <div className="art border-2 rounded-xl border-customPurple h-72 flex flex-col items-center overflow-auto">
                 <div>
