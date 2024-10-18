@@ -3,17 +3,17 @@
 
 const DashBoard = () => {
   return (
-   <div>
-    <ul className="container divide-y divide-gray-500" style={{fontFamily: "Roboto"}}>
-        <li className="flex items-center-justify-evenly md:justify-normal bg-customPurple w-full  py-10 overflow-auto">
+   <div className=" w-screen">
+    <ul className="container" style={{fontFamily: "Roboto"}}>
+        <li className="flex items-center-justify-evenly md:justify-normal bg-customPurple w-screen py-10 ">
             <div className="flex w-full">
-                <span className="flex-initial inline w-32 text-white px-3 py-2 pl-20 sm:pl-10">Quiz</span>
-                <span className="flex-1 inline text-center space-x-9 text-white  pl-64 md:pl-2 sm:pl-2 px-3 py-2">
+                <span className="flex-initial inline w-32 text-white text-5xl ml-10">Quiz</span>
+                <span className="flex-1 inline text-center ml-1 space-x-8 text-white sm:flex-col">
                     <span>Leaderboard</span>
                     <span>Profile</span>
                     <span>Settings</span>
                 </span>
-                <span className="flex-initial inline text-white px-3 py-2 pr-32 space-x-9 text-right sm:pr-4">
+                <span className="flex-initial inline text-white space-x-7 text-right mr-5">
                      <span className=""><i className='bx bx-user-circle' ></i></span>
                     <span className="text-white" style={{}}><i className='bx bxs-bell-ring'></i></span>
                     <span className="text-white"><i className="far fa-question-circle" ></i></span>
@@ -21,13 +21,13 @@ const DashBoard = () => {
             </div>
         </li>
 
-        <li className="w-full">
-            <div className="container ml-5 m-10 flex flex-wrap items-center w-full h-40 bg-customPurple ">
-                <div className="ml-28 sm:ml-2 w-40 sm:w-15 sm:h-15 h-40 bg-cover bg-center" style={{ backgroundImage: "url('./freepik.png')" }}></div>
-                <div className="text-center text-white whitespace-nowrap font-mono font-extrabold text-2xl sm:text-40px"><h1>Welcome, Ashimolowo Riliwan</h1></div>
+        <li className="w-90 mx-auto mt-14 flex flex-wrap flex-col gap-20">
+            <div className="container ml-6  flex flex-wrap items-center  w-90 h-40 bg-customPurple ">
+                <div className=" sm:ml-2 w-40 sm:w-15 sm:h-15 h-40 bg-cover bg-center" style={{ backgroundImage: "url('./freepik.png')" }}></div>
+                <div className="inline-block text-white  font-mono font-extrabold text-xl sm:text-40px"><p>Welcome, Ashimolowo Riliwan</p></div>
 
          </div>
-         <div className="grid grid-cols-4 gap-2 w-full ml-6 auto-cols-fr grid-flow-col sm:grid-cols-2">
+         <div className="mx-auto mb-10 grid grid-cols-4 gap-2 w-full ml-6 auto-cols-fr grid-flow-col sm:grid-cols-2">
 
             <div className="art border-2 rounded-xl border-customPurple h-72 flex flex-col items-center overflow-auto">
                 <div>
@@ -64,7 +64,7 @@ const DashBoard = () => {
                 <div className="mt-6 text-center text-white inline-block bg-opacity-80 w-36  hover:bg-blue-500 hover:text-gray-300 rounded-xl hover:ring-1 font-semibold">Take Task</div>
             </div>
          </div>
-        
+         
        
         </li>
         
