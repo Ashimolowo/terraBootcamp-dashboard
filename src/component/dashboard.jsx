@@ -5,7 +5,7 @@ const DashBoard = () => {
   return (
    <div>
     <ul className="container divide-y divide-gray-500" style={{fontFamily: "Roboto"}}>
-        <li className="flex items-center-justify-evenly md:justify-normal bg-customPurple w-screen  py-10">
+        <li className="flex items-center-justify-evenly md:justify-normal bg-customPurple w-full  py-10 overflow-auto">
             <div className="flex w-full">
                 <span className="flex-initial inline w-32 text-white px-3 py-2 pl-20 sm:pl-10">Quiz</span>
                 <span className="flex-1 inline text-center space-x-9 text-white  pl-64 md:pl-2 sm:pl-2 px-3 py-2">
