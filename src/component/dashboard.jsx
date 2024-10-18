@@ -7,7 +7,7 @@ const DashBoard = () => {
     <ul className="container" style={{fontFamily: "Roboto"}}>
         <li className="flex items-center-justify-evenly md:justify-normal bg-customPurple w-full py-10 overflow-auto">
             <div className="flex w-full">
-                <span className="flex-initial inline w-32 text-white text-5xl ml-10">Quiz</span>
+                <span className="flex-initial inline w-32 text-white text-5xl">Quiz</span>
                 <span className="flex-1 inline text-center ml-2 space-x-8 text-white sm:flex-col">
                     <span>Leaderboard</span>
                     <span>Profile</span>
